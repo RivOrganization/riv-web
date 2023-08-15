@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Çok Yakında Tekrar Geleceğiz</title>
-   <link rel="stylesheet" href="css/style.css">
-   </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Çok Yakında Tekrar Geleceğiz</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
   <div class="container">
     <h1 class="logo">Çok Yakında Tekrar Geleceğiz</h1>
@@ -26,21 +26,6 @@
     &copy; 2023 Riv Organization, Tüm hakları saklıdır.
   </footer>
 
-  <script>
-    function hideCookiesSection() {
-      document.getElementById("cookiesSection").style.display = "none";
-      localStorage.setItem("cookiesAccepted", "true");
-    }
-
-    if (localStorage.getItem("cookiesAccepted")) {
-      document.getElementById("cookiesSection").style.display = "none";
-    }
-
-    document.addEventListener('mousemove', (e) => {
-      const cursor = document.querySelector('.cursor');
-      cursor.style.top = e.clientY + 'px';
-      cursor.style.left = e.clientX + 'px';
-    });
-  </script>
+  <script src="js/javascript.js"></script>
 </body>
 </html>
