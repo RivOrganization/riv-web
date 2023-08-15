@@ -1,6 +1,6 @@
 # Riv Organizasyonu Web Sitesi
 
-![Proje Logosu]([link/to/project/logo.png](https://cdn.discordapp.com/attachments/1139195788375883856/1140993792367939604/download.png))
+![Proje Logosu](https://cdn.discordapp.com/attachments/1139195788375883856/1140993792367939604/download.png)
 
 ## Hakkında
 
